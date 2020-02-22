@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+  
+    "name": "批量增加推广位",
+    "description": "快速批量增加推广位",
+    "version": "1.0",
+    "permissions": [
+        "https://pub.alimama.com/myunion.htm*"
+    ],
+    "content_scripts": [
+        {
+          "matches": ["https://pub.alimama.com/*"],
+          "js": ["content.js"]
+        }
+      ]
+  }
